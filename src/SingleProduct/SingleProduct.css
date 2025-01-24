@@ -1,0 +1,82 @@
+.singleProductCart {
+    display: block;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    color: #B22222;
+    text-transform: capitalize;
+    font-weight: bold; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid #B22222;
+    border-radius: 12px;
+}
+
+.singleProductCart:hover {
+    background-color: #B22222;
+    color:white;
+    border: 2px solid #B22222;
+
+}
+
+.quantityBtn {
+    background-color: white;
+    color: #B22222;
+    border: 2px solid #B22222;
+    font-weight: 900;
+}
+.quantityBtn:hover {
+    background-color: #B22222;
+    color: white;
+    border: 2px solid #B22222;
+    font-weight: 900;
+}
+.quantityBtn:focus {
+    background-color: #B22222;
+    color: white;
+    border: 2px solid #B22222 !important;
+    font-weight: 900;
+    box-shadow: none;
+}
+
+
+.quantityBtn:active {
+    background-color: #B22222 !important;
+    color: white  !important;
+    border: 2px solid #B22222 !important;
+    font-weight: 900;
+    box-shadow: none !important;
+}
+
+
+
+.buyNowBtn {
+    display: block;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    color: green;
+    text-transform: capitalize;
+    font-weight: bold; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid green;
+    border-radius: 12px;
+}
+
+
+.buyNowBtn:hover {
+    background-color: green;
+    color:white;
+    border: 2px solid green;
+
+}
+
+
+.rootRowDescription {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}

@@ -1,0 +1,27 @@
+
+
+.searchBox {
+    width:35vw;
+    /* max-width: 250px; */
+    border-radius:10px;
+}
+
+.searchBox:focus {
+    border-color: #7C0A02  !important;
+    box-shadow: 0 0 0 .2rem rgba(124, 10, 2,0.3);
+}
+
+.nav-text:hover {
+    color:#B22222  !important;
+}
+
+.nav-text {
+    color:#7C0A02 !important;
+    font-size:20px;
+}
+
+
+.upperForm {
+    width:75%;
+    display: inline-flex;
+}
